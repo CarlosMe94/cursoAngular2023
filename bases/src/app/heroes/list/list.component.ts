@@ -5,4 +5,12 @@ import { Component } from '@angular/core';
   templateUrl: './list.component.html',
   styleUrls: ['./list.component.css'],
 })
-export class ListComponent {}
+export class ListComponent {
+  public heroNames: string[] = [
+    'Spiderman',
+    'Ironam',
+    'Hulk',
+    'She Hulk',
+    'Thor',
+  ];
+}

@@ -28,4 +28,8 @@ export class HeroePageComponent implements OnInit {
         return;
       });
   }
+
+  goBack(): void {
+    this.router.navigateByUrl('heroes/list');
+  }
 }
